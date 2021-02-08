@@ -1,0 +1,40 @@
+.manual{
+    width: 90%;
+    margin: auto;
+}
+
+.manual section h3, .header h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.manual h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.manual-imagen img{
+    width: 100%;
+}
+
+.manual-imagen{
+    padding: 30px;
+    width: 80%;
+}
+
+.manual-imagen-mini{
+    padding: 30px;
+    width: 40%;
+}
+
+.video iframe{
+    margin: auto;
+}

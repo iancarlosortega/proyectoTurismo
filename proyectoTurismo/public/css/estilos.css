@@ -1,0 +1,461 @@
+/*Normalice*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+/*Layout principal*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color:#ffffff;
+    border-bottom: 5px #003F72 solid;
+}
+  
+.logo {
+    cursor: pointer;
+}
+.logo img{
+    width: 75%;
+}
+  
+.nav__links a,.cta ,.dropbtn{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 15px;
+    color: #003F72;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+  
+.nav__links li {
+    padding: 0px 80px;
+}
+  
+.nav__links li a {
+    transition: color 0.3s ease 0s;
+}
+  
+.nav__links li a:hover, .dropbtn:hover {
+    color: rgba(0, 136, 169, 0.8);
+}
+.dropbtn{
+    background-color: #ffffff;
+    border: none;
+}
+.cta {
+    color: #ffffff;
+    padding: 9px 25px;
+    background-color: #003F72;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+  
+.cta:hover {
+    background-color: rgba(0, 136, 169, 0.8) !important;
+    color: #ffffff !important;
+}
+
+
+footer{
+    
+    background-color: #003F72;
+}
+.footer1 div{
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+.UTPL,.contactos,.aboutUs{
+    width: 33%;
+}
+.UTPL-titulo{
+    width: 30%;
+    text-align: right;
+    
+}
+.UTPL-titulo p{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.UTPL-region{
+    width: 70%;
+    text-align: center; 
+}
+.footer1 h2{
+    font-size: 20px;
+    line-height: 29px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.region1{
+    font-size: 14px;
+    line-height: 22px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.region2{
+    font-size: 20px;
+    line-height: 29px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contactos div{
+    display: block;
+    padding:10px 0px;
+}
+.contactos img{
+    width: 30px;
+    height: 30px;
+}
+.iconoDireccion img{
+    width: 20px;
+    height: 30px;
+}
+.contactos{
+    padding: 30px 0px;
+}
+.aboutUs p{
+    padding:15px 0px;
+}
+.redes img{
+    width: 20px;
+    height: 20px;
+}
+  
+/* SLIDER  */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  position: relative;
+  margin: auto;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* INDEX */
+.contenedor-index{
+    width: 80%;
+}
+.descripcion-proyecto{
+    text-align: left;
+    margin: 50px 0px;
+}
+.descripcion-proyecto h2{
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px 0px;
+}
+
+.contenido-azul{
+    background-color: #003F72;
+    color: white;
+    text-align: left;
+    padding: 15px 50px;
+}
+.contenido-blanco{
+    background-color: #ebe8e8;
+    color: #003F72;
+    text-align: left;
+    padding: 15px 50px;
+}
+.contenido-azul div,.contenido-blanco div{
+    display: inline-block;
+    padding: 10px;
+}
+.contenido-azul-info,.contenido-blanco-info{
+    width: 70%;
+    vertical-align: top;
+}
+.contenido-azul-info h2,.contenido-azul-info p,.contenido-blanco-info h2,.contenido-blanco-info p{
+    padding: 20px;
+}
+.contenido-azul-img,.contenido-blanco-img{
+    width: 30%;
+}
+.contenido-azul-img img{
+    width: 100%;
+    border: 3px rgb(255, 255, 255) solid;
+}
+.contenido-blanco-img img{
+    width: 100%;
+}
+.contactos{
+    text-align: left;
+}
+
+.contenido-turismo{
+    width: 80%;
+}
+
+.contenido-turismo article{
+    display: inline-block;
+    width: 33%;
+    margin: 50px 80px;
+    vertical-align: top;
+}
+
+.card-title,.card-text{
+    text-align: left;
+}
+
+.turismo-paginacion{
+    padding: 50px 200px;
+}
+
+.col-4{
+    padding: 30px 0px;
+}
+
+.col-4 div{
+    padding: 10px;
+}
+
+
+
+.columnas div{
+    display: inline-block;
+    width: 49%;
+    padding: 0px;
+}
+.visualizaciones-body{
+    width: 90%;
+    margin: auto;
+}
+
+.visualizaciones-body label{
+    font-weight: bold;
+}
+
+.filas label{
+    font-weight: 100;
+}
+
+.col h2{
+    text-align: center;
+}
+
+.estadistica,.estadistica2, .estadistica3{
+    text-align: center;
+    border: 4px rgb(187, 187, 187) solid;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.estadistica h2,.estadistica2 h2{
+    padding: 5px 0px;
+}
+.col h3{
+    font-weight: bold;
+}
+
+.anual div{
+    padding: 20px 10px;
+}
+
+.anual2 div{
+    padding: 10px 0px;
+}
+
+.estadistica2{
+    margin-top: 5px;
+}
+
+.estadistica3{
+    margin-top: 20px;
+}
+
+.estadistica h2, .estadistica2 h2, .estadistica3 h2{
+    padding: 30px 0px;
+}
+
+.borde1,.borde3{
+    width: 90%;
+}
+.contenido section{
+    background-color: #003F72;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.error section{
+    background-color: #003F72;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.borde1 section{
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    padding: 10px 0px;
+}
+
+.borde1{
+    padding: 20px 0px;
+}
+
+.borde2,.borde3,.borde4{
+    padding: 13px 0px;
+}
+
+.col div{
+    padding-left: 5px;
+}
+
+/* GRAFICAS */
+.graficas{
+    margin: 30px 0px;
+}
+.graficas div{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;   
+}
+#chart1,#chart2,#chart3,#chart4,#chart5,#chart6 {
+    border: 1px rgb(190, 190, 190) solid;
+}
+ /* LINKS LUGARES */
+ .links-lugares figure{
+     display: inline-block;
+     width: 20%;
+     margin: 30px 20px;
+     height: 200px;
+     background-color: white;
+ }
+
+ .links-lugares{
+    position: relative;
+
+}
+.links-lugares figure img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.links-lugares p{
+    padding-top: 20px;
+}
+
+.titulos-index h2{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 20px 0px;
+    color: #003F72;
+}
+.draw{
+    text-align: left;
+}
+.draw h2{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 20px 0px;
+    color: #000000;
+}
+.draw-contenido div{
+    display: inline-block;
+}
+.draw-contenido1{
+    width: 55%;
+}
+.draw-contenido1 img{
+    width: 100%;
+}
+.draw-contenido2{
+    width: 40%;
+    text-align: center;
+    vertical-align: top;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.draw-contenido2 a, .draw-contenido2 p{
+    display: inline;
+}
+.draw-contenido2 a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #003F72;
+}
+
+
+
+
+
+
+
+
+
+
+
